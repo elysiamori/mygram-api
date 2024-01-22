@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Bar Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#search-box {
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding: 0 15px;
+    font-size: 16px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} 
+
+#search-box::placeholder {
+    color: #ccc;
+}
+</style>
+<body>
+    <div class="container">
+        <input type="text" id="search-box" placeholder="Search Google or type a URL">
+    </div>
+</body>
+</html>
