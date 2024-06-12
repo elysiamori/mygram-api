@@ -8,7 +8,7 @@ import (
 
 func main() {
 
-	// Valdu Ramadhan
+	// Valdy Ramadhan
 
 	db, err := config.Config()
 	if err != nil {
