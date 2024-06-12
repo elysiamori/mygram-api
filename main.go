@@ -9,6 +9,7 @@ import (
 func main() {
 
 	// Valdy Ramadhan
+	// Backend Development
 
 	db, err := config.Config()
 	if err != nil {
