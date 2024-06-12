@@ -8,6 +8,8 @@ import (
 
 func main() {
 
+	// Valdu Ramadhan
+
 	db, err := config.Config()
 	if err != nil {
 		panic(err)
